@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'todo.apps.TodoConfig',
     'api.apps.ApiConfig',
     # Third-party apps start here
-    'rest_framework', 
+    'rest_framework',
+    'rest_framework.authtoken'
 ]
 
 MIDDLEWARE = [
